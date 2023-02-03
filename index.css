@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+   
+body{
+    background: url(https://ramenparados.com/wp-content/uploads/2020/09/Sword-Art-Online-Progressive-key-1000x600-1600587861.jpg) #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-size: 16px;
+    width: 98vw;
+    height: 95vh;
+}
+   
+.wrap{
+    width: 90%;
+    max-width: 1000px;
+}
+   
+.widget{
+    width: 40%;
+    margin: 2em;
+}
+   
+.widget p {
+    display: inline-block;
+    line-height: 1em;
+}
+   
+.fecha {
+    font-family: Oswald, Arial;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    background: rgba(0,0,0,.5);
+    padding: 20px;
+    width: 100%;
+}
+   
+.reloj{
+    font-family: Oswald, Arial;
+    width: 100%;
+    padding: 20px;
+    font-size: 4em;
+    text-align: center;
+    background: rgba(0,0,0,.5);
+}
+   
+.reloj .caja-segundos{
+    display: inline-block;
+}
+   
+.reloj .segundos, .reloj .ampm{
+    font-size: 32px;
+    display: block;
+}
+
+@media (max-width: 1128px){
+    .wrap{
+        width: 100%;
+    }
+}
+
+@media (max-width: 785px){
+    .wrap{
+        padding-right: 100px;
+    }
+    .widget{
+        width: auto;
+        margin-left: 140px;
+    }
+}
+
+@media (max-width: 580px){
+    .widget{
+        margin-left: 18%;
+        width: 85%;
+    }
+}
+
+@media (max-width: 550px){
+    .widget{
+        width: 80%;
+        margin-left: 21%;
+    }
+}
+
+@media (max-width: 450px){
+    .widget{
+        width: 120%;
+        margin-left: 5%;
+    }
+}
+
+
+
+@media (max-width: 380px){
+    .widget{
+        width: 130%;
+        margin-left: 5%;
+    }
+}
